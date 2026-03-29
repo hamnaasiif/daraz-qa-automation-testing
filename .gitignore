@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.pyc
+
+# Reports
+reports/
+screenshots/
+allure-results/
+allure-report/
+behave-report/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
+
+# Test files (temporary)
+test_*.png
+# Debug and Verification Scripts
+debug_*.py
+test_framework.py
+test_installation.py
+test_pages.py
+verify_*.py
+run_all_tests.py
+generate_allure_report.py
+
+# Assignment Docs and Logs
+*.docx
+final_test_run.txt
+ASSIGNMENT_CHECKLIST.md
+REQUIREMENTS_VERIFICATION.md
+
+# Ignore the root steps directory (because features/steps/ is the correct one used by Behave)
+/steps/

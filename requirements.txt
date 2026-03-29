@@ -1,0 +1,23 @@
+# Core Automation
+playwright>=1.50.0
+pytest-playwright==0.5.2
+
+# BDD Framework
+behave==1.2.6
+allure-behave==2.13.2
+
+# Allure Reporting
+allure-pytest==2.13.2
+allure-python-commons==2.13.2
+
+# Data Handling
+pandas>=2.2.0
+numpy>=2.0.0
+openpyxl==3.1.2
+redis==5.0.1
+
+# Utilities
+python-dotenv==1.0.0
+faker==20.1.0
+pytest==8.0.0
+greenlet>=3.2.2  # Explicitly pin for compatibility
