@@ -1,11 +1,11 @@
 name: CI - Daraz Automation Framework
 
-# Trigger on every push and pull request to main/develop branches
+# Trigger on every push and pull request to master/develop branches
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ master, develop ]
   pull_request:
-    branches: [ main, develop ]
+    branches: [ master, develop ]
 
 # Allow this workflow to read repo contents
 permissions:
